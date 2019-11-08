@@ -39,8 +39,8 @@ dependencies {
     //retrofit的gson解析的依赖
     implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
     //retrofit+okhttp的依赖
-    compile 'com.squareup.retrofit2:retrofit:2.0.2'
-    compile 'com.squareup.okhttp3:okhttp:3.1.2'
+    implementation 'com.squareup.retrofit2:retrofit:2.0.2'
+    implementation 'com.squareup.okhttp3:okhttp:3.1.2'
     //okhttp拦截器依赖：
     implementation 'com.squareup.okhttp3:logging-interceptor:3.12.1'
     //rxjava+rxandroid
@@ -48,4 +48,10 @@ dependencies {
     implementation 'io.reactivex.rxjava2:rxandroid:2.1.0'
     //retrofit回调适配器采用rxjava进行处理
     implementation 'com.squareup.retrofit2:adapter-rxjava2:2.5.0'
+    //Xbanner的依赖:
+    implementation 'com.xhb:xbanner:1.2.2'
+    //Glide的依赖:
+    implementation 'com.dyhdyh.support:glide:1.0.0'
+    //fresco依赖
+    implementation 'com.facebook.fresco:fresco:1.11.0'
 }
